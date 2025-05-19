@@ -1,0 +1,50 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "name": "Conferencia de Tecnología 2025",
+      "description": "Un evento para discutir las últimas tendencias tecnológicas.",
+      "scheduledAt": "2025-06-10T09:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Festival de Innovación",
+      "description": "Celebración de ideas y proyectos innovadores.",
+      "scheduledAt": "2025-07-05T15:00:00Z"
+    }
+  ],
+  "attendees": [
+    {
+      "id": "1",
+      "firstName": "Lucía",
+      "lastName": "Gómez",
+      "eventId": "1",
+      "ticketIdentifier": "TECH2025-LG001",
+      "checkedInAt": "2025-06-10T08:45:00Z"
+    },
+    {
+      "id": "2",
+      "firstName": "Carlos",
+      "lastName": "Ramírez",
+      "eventId": "1",
+      "ticketIdentifier": "TECH2025-CR002",
+      "checkedInAt": null
+    },
+    {
+      "id": "3",
+      "firstName": "Ana",
+      "lastName": "Martínez",
+      "eventId": "2",
+      "ticketIdentifier": "INNOV2025-AM001",
+      "checkedInAt": "2025-07-05T14:30:00Z"
+    },
+    {
+      "id": "4",
+      "firstName": "Diego",
+      "lastName": "López",
+      "eventId": "2",
+      "ticketIdentifier": "INNOV2025-DL002",
+      "checkedInAt": null
+    }
+  ]
+}
