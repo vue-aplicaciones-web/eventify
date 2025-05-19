@@ -5,6 +5,7 @@ import ToolbarComponent from "./shared/components/toolbar.component.vue";
 
 <template>
   <toolbar-component/>
+  <router-view/>
 </template>
 
 <style scoped>

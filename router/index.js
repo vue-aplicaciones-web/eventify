@@ -10,15 +10,18 @@ const routes = [
     },
     {
         path: '/home',
+        name: 'home',
         component: HomeComponent,
     },
     {
         path: '/registration/event-check-ins/new',
+        name: 'event-check-in',
         component: EventCheckInComponent
     },
     {
-      path: "/**",
-      component: notFoundComponent
+        path: '/:pathMatch(.*)*',
+        name: 'not-found',
+        component: notFoundComponent
     }
 ]
 

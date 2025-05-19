@@ -4,7 +4,7 @@ import httpInstance from "../../shared/services/http.instance.js";
  * @class EventService
  * @description Service class for handling CRUD operations on categories using HTTP requests
  */
-export class AttendeeService {
+export class EventService {
     /** @type {string} The API endpoint for categories */
     resourceEndpoint = import.meta.env.VITE_EVENTS_ENDPOINT_PATH;
 
